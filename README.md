@@ -98,7 +98,9 @@ swiggy-review-trend-agent/
 pip install -r requirements.txt
 ```
 ##Place CSV files inside:
+
 data/raw/YYYY-MM-DD.csv
+
  review
  Delivery was delayed
  Food was stale
