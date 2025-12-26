@@ -1,6 +1,6 @@
-# 📊 Swiggy Review Trend Analysis using Agentic AI
+# Swiggy Review Trend Analysis using Agentic AI
 
-## 📌 Problem Statement
+##  Problem Statement
 Product teams need to continuously monitor user issues, feature requests, and feedback from app store reviews.  
 This project builds an **agentic AI system** that ingests **daily Google Play Store reviews** (treated as batches) and generates a **rolling trend analysis (T-30)** of key topics.
 
@@ -8,7 +8,7 @@ Traditional topic modeling techniques (LDA, TopicBERT) are avoided due to low ac
 
 ---
 
-## 🎯 Key Objectives
+##  Key Objectives
 - Process daily batches of app reviews
 - Identify issues, requests, and feedback topics
 - Merge semantically similar topics into a single category
@@ -17,11 +17,11 @@ Traditional topic modeling techniques (LDA, TopicBERT) are avoided due to low ac
 
 ---
 
-## 🤖 Agentic AI Architecture
+##  Agentic AI Architecture
 
 This system uses **multiple cooperating AI agents**, each responsible for a focused task.
 
-### 🧠 Agent 1: Topic Extraction Agent
+###  Agent 1: Topic Extraction Agent
 **File:** `agents/topic_extractor.py`
 
 - Reads raw review text
@@ -62,9 +62,8 @@ This solves the key challenge of inaccurate trend fragmentation.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
-#structure
 swiggy-review-trend-agent/
 │
 ├── data/
